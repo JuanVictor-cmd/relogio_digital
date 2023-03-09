@@ -8,7 +8,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 60.6rem;
     background: linear-gradient(120deg, #FDC830 0%, #F37335 100%);
     display: flex;
     align-items: center;
@@ -77,4 +77,98 @@ a:hover{
 
 a::before{
     content: '← ';
+}
+
+@media (max-width: 985px){
+    .relogio{
+        position: relative;
+        left: 4rem;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15rem;
+        right: 17rem;
+    }
+}
+
+@media (max-width: 653px){
+    .relogio{
+        background: 100%;
+        left: 2.4rem;
+        width: auto;
+        height: 20%;
+    }
+    
+    .relogio div{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15rem;
+        right: 17rem;
+    }
+
+    footer a{
+        font-size: 20px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 587px){
+    .relogio div{
+        height: 80px;
+        width: 80px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    
+    }
+    .relogio span{
+        font-size: 20px;
+    }
+    .relogio span.tempo{
+        font-size: 10px;
+    }
+    .relogio{
+        height: 12%;
+        margin-left: 1.3rem;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 15rem;
+        right: 11rem;
+    }
+
+    footer a{
+        font-size: 20px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 342px){
+    .relogio div{
+        margin-left: 8px;
+    }
+}
+
+@media (width: 590px){
+    footer{
+        right: 18.3rem;
+    }
 }
