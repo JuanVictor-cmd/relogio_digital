@@ -9,8 +9,8 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar o projeto.
 
 <h2>Clique Aqui ⬇</h2> 
-Portfólio em tempo real:
-https://portfolio-juanvictor-cmd.netlify.app
+Relógio em tempo real:
+https://relogio-digital-juanvictor-cmd.netlify.app
 
 ### 📋 Pré-requisitos
 
