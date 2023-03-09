@@ -1,6 +1,6 @@
-# Título do projeto
+# Relógio Digital
 
-Olá, esse é a V1 do meu primeiro portfólio! :)
+Olá, esse é o relógio digital que pega a hora em tempo real :)
 
 ## 🚀 Começando
 
